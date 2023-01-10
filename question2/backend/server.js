@@ -1,9 +1,9 @@
 
 
 const app = require('./app.js')
-const cors = require('cors')
+
 const mongoose = require('mongoose');
-app.use(cors())
+
 
 mongoose
   .connect("mongodb://localhost:27017/sp20-bcs-103")
